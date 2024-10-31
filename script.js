@@ -18,10 +18,11 @@ function balloon() {
 }
 
 function monkey() {
-    console.log('monkey spots balloons')
+    console.log('monkey spots balloons and throws dart')
 }
 
-balloon()
+balloon() // When ran, the first console.log in the balloon function appears first then followed by the console.log in the monkey function and lastly the second console.log in the balloon function
+// The reason it appears in this order is because the call (monkey) after the first console.log in the balloon function outputs the console.log in the monkey function
 
 function java() {
     console.log('JavaScript')
